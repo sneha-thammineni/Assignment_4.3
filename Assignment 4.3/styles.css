@@ -1,0 +1,18 @@
+article{
+	
+	border: 1px solid black;
+	height: 100px;
+	position: relative;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+}
+
+/* Setting top to 25% since the height in article is 100px */
+article img { 
+
+	position: absolute; 
+	top: 25%; 
+}
